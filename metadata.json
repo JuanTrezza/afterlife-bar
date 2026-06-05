@@ -1,0 +1,6 @@
+{
+  "name": "Afterlife Bar & Mercenary Protocol",
+  "description": "Gritty, neon-lit cyberpunk command terminal and cocktail deck for the legendary Afterlife bar in Night City.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

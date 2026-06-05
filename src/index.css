@@ -1,27 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Bebas+Neue&family=Space+Mono&family=Barlow+Condensed:wght@400;700&family=Share+Tech+Mono&display=swap');
-@import "tailwindcss";
-
-@theme {
-  --font-orbitron: "Orbitron", sans-serif;
-  --font-bebas: "Bebas Neue", sans-serif;
-  --font-mono: "Space Mono", monospace;
-  --font-barlow: "Barlow Condensed", sans-serif;
-  --font-share: "Share Tech Mono", monospace;
-
-  /* Custom palette matching image colors */
-  --color-surface-base: #070509;
-  --color-surface-dark: #0c0812;
-  --color-surface-medium: #181223;
-  --color-surface-card: #20182E;
-  
-  --color-cyber-purple: #9b00ff;
-  --color-cyber-purple-light: #dfb7ff;
-  --color-cyber-cyan: #00F0FF;
-  --color-acid-red: #FF003C;
-  --color-amber-gold: #FF8C00;
-  --color-text-primary: #C8D0E0;
-  --color-text-muted: #605870;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Custom Scanlines Overlay */
 .scanlines {
